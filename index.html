@@ -1,297 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bheemashankar Nashi | Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.14/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    .smooth-scroll {
-      scroll-behavior: smooth;
+    body {
+      font-family: 'Poppins', sans-serif;
     }
-    .section {
-      scroll-margin-top: 80px;
-    }
-    .back-to-top {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .back-to-top.visible {
-      opacity: 1;
+    .gradient-text {
+      background: linear-gradient(to right, #1e3a8a, #06b6d4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-800 font-sans transition-colors duration-300 dark:bg-gray-900 dark:text-gray-100 smooth-scroll">
-  <!-- Navigation Bar -->
-  <nav class="bg-blue-900 text-white p-4 sticky top-0 z-50 shadow-lg">
-    <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold">Bheemashankar Nashi</h1>
-      <ul class="flex space-x-6">
-        <li><a href="#summary" class="hover:text-blue-300 transition">Summary</a></li>
-        <li><a href="#skills" class="hover:text-blue-300 transition">Skills</a></li>
-        <li><a href="#experience" class="hover:text-blue-300 transition">Experience</a></li>
-        <li><a href="#problems" class="hover:text-blue-300 transition">Key Problems</a></li>
-        <li><a href="#certifications" class="hover:text-blue-300 transition">Certifications</a></li>
-        <li><a href="#education" class="hover:text-blue-300 transition">Education</a></li>
-        <li><a href="#companies" class="hover:text-blue-300 transition">Companies</a></li>
-      </ul>
-      <button id="theme-toggle" class="text-white hover:text-blue-300 focus:outline-none">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
-        </svg>
-      </button>
-    </div>
-  </nav>
-
+<body class="bg-gray-100 text-gray-800">
   <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-blue-900 to-blue-600 text-white py-20 px-6 text-center">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-bold animate-fade-in">Bheemashankar Nashi</h1>
-      <p class="text-lg md:text-xl mt-2">Senior Talent Acquisition Specialist</p>
-      <p class="mt-1 text-sm">Roopena Agrahara, Bommanahalli, Bengaluru – 560068</p>
-      <p class="mt-1 text-sm">📧 <a href="mailto:bheemubg2@gmail.com" class="underline hover:text-blue-300">bheemubg2@gmail.com</a> | 📱 +91 78299 35974</p>
+  <section class="bg-gradient-to-br from-indigo-900 via-blue-700 to-blue-400 text-white py-20 text-center shadow-md">
+    <div class="max-w-4xl mx-auto px-4">
+      <h1 class="text-5xl font-extrabold gradient-text mb-4">Bheemashankar Nashi</h1>
+      <p class="text-2xl font-medium">Senior Talent Acquisition Specialist</p>
+      <p class="mt-2 text-lg">Bengaluru, India | 📧 <a href="mailto:bheemubg2@gmail.com" class="underline">bheemubg2@gmail.com</a> | 📱 +91 78299 35974</p>
       <div class="mt-6 space-x-4">
-        <a href="https://www.linkedin.com/in/bheemashankar-nashi/" target="_blank" class="bg-white text-blue-900 px-6 py-2 rounded-full shadow-lg hover:bg-gray-100 transition">LinkedIn Profile</a>
-        <a href="./BHEEMASHANKAR_NASHI_Resume.pdf" download class="bg-white text-blue-900 px-6 py-2 rounded-full shadow-lg hover:bg-gray-100 transition">Download Resume</a>
+        <a href="https://www.linkedin.com/in/bheemashankar-nashi/" target="_blank" class="bg-white text-blue-700 px-5 py-2 rounded shadow-md hover:bg-gray-100">LinkedIn</a>
+        <a href="./BHEEMASHANKAR_NASHI_Resume.pdf" download class="bg-white text-blue-700 px-5 py-2 rounded shadow-md hover:bg-gray-100">Download Resume</a>
       </div>
     </div>
   </section>
 
   <!-- Summary -->
-  <section id="summary" class="p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Summary</h2>
-    <p class="text-lg leading-relaxed">Experienced recruiter with over 6 years of end-to-end recruitment expertise spanning IT and Non-IT industries. Proficient in sourcing, selecting, and building candidate pipelines across sectors including IT, Banking & Finance, Manufacturing, Engineering, and Automotive. Skilled in utilizing Candidate Management Systems (CMS), Applicant Tracking Systems (ATS), and job portals such as Naukri Recruiter, LinkedIn Recruiter, and Indeed. Adept at managing databases, conducting interviews, and coordinating with hiring managers. Recognized for achieving annual contest goals, mentoring junior recruiters, and maintaining robust relationships with candidates and clients while excelling in documentation and onboarding processes.</p>
+  <section class="bg-white py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-4">Professional Summary</h2>
+    <p class="text-lg leading-relaxed text-gray-700">Experienced recruiter with 6+ years of end-to-end recruitment expertise in IT and Non-IT domains. Proficient in sourcing, evaluating, and hiring across sectors including BFSI, Engineering, Manufacturing, and Technology. Adept with CMS, ATS, Naukri, LinkedIn Recruiter, Workday, and AI-based sourcing tools. Skilled in managing hiring pipelines, candidate engagement, and stakeholder collaboration across delivery teams and senior leadership.</p>
   </section>
 
   <!-- Skills -->
-  <section id="skills" class="bg-white dark:bg-gray-800 p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Skills</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Core Skills</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Stakeholder Management</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Candidate Pipeline Development</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Salary & Benefits Negotiation</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Recruitment Strategy</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Diversity & Inclusion</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Team Collaboration</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Process Improvement</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Communication Skills</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Problem Solving</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Strategic Planning</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Market Analysis</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Client Relationship Management</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Technical Skills</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Talent Acquisition</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Recruitment Life-cycle Management</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">IT & Non-IT Hiring</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Candidate Management System (CMS)</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Applicant Tracking System (ATS)</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Gen AI for Recruiting</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Basic Workday Knowledge</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">LinkedIn Recruiter, Naukri, Indeed</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">MS Office Suite (Excel, Word, PowerPoint)</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Job Posting & Advertisement</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Vendor Management</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Market Mapping</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Employer Branding</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Employee Referral Program</li>
-          <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Onboarding & Documentation</li>
-        </ul>
-      </div>
+  <section class="bg-gradient-to-br from-cyan-50 to-blue-100 py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-6">Skills</h2>
+    <div class="grid md:grid-cols-2 gap-6 text-lg text-gray-800">
+      <ul class="list-disc list-inside">
+        <li>Stakeholder Management</li>
+        <li>Recruitment Strategy & Pipeline Building</li>
+        <li>Diversity Hiring & Employer Branding</li>
+        <li>Client & Candidate Relationship Management</li>
+        <li>Interviewing & Salary Negotiation</li>
+      </ul>
+      <ul class="list-disc list-inside">
+        <li>CMS & ATS Tools (Workday, Oracle HCM)</li>
+        <li>LinkedIn Recruiter, Naukri, Indeed</li>
+        <li>Jira, MS Office Suite, Google Workspace</li>
+        <li>Gen AI in Recruitment</li>
+        <li>Onboarding & Documentation</li>
+      </ul>
     </div>
   </section>
 
-  <!-- Work Experience -->
-  <section id="experience" class="p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-6">Work Experience</h2>
-    <div class="space-y-8">
-      <div class="border-l-4 border-blue-600 pl-4">
-        <h3 class="text-2xl font-bold">Photon Interactive Pvt. Ltd.</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Senior Executive – Talent Acquisition | Dec 2024 – Present</p>
-        <ul class="list-disc pl-6 mt-2 space-y-2">
-          <li>Handle end-to-end recruitment for digital and niche tech roles, specializing in Java, leadership, and data engineering positions.</li>
-          <li>Collaborate with VPs, AVPs, product owners, and delivery heads to align hiring with project priorities.</li>
-          <li>Manage requisitions independently within the TA team, coordinating with internal stakeholders.</li>
-          <li>Lead project-based hiring drives for digital transformation roles with quick turnaround expectations.</li>
-          <li>Utilize market research and talent insights to enhance sourcing strategies and hiring outcomes.</li>
-          <li>Manage recruitment operations using Oracle HCM and Jira, sharing hiring dashboards with stakeholders.</li>
-          <li>Ensure smooth candidate experience through effective communication, follow-ups, and offer negotiations.</li>
-          <li>Support diversity hiring initiatives and process improvements to reduce time-to-hire.</li>
-          <li>Coordinate with HR and delivery teams for seamless onboarding and compliance.</li>
+  <!-- Experience -->
+  <section class="bg-white py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-6">Work Experience</h2>
+    <div class="space-y-6">
+      <div class="border-l-4 border-blue-700 pl-4">
+        <h3 class="text-2xl font-semibold">Photon Interactive Pvt. Ltd.</h3>
+        <p class="text-sm text-gray-500">Senior Executive – Talent Acquisition | Dec 2024 – Present</p>
+        <ul class="list-disc pl-6 mt-2 text-gray-700">
+          <li>Led recruitment for Java, leadership, and data roles.</li>
+          <li>Collaborated with delivery heads and product owners.</li>
+          <li>Utilized Jira, Oracle HCM, and AI tools for sourcing.</li>
         </ul>
       </div>
-      <div class="border-l-4 border-blue-600 pl-4">
-        <h3 class="text-2xl font-bold">RLE India Pvt. Ltd.</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Senior Executive – Talent Acquisition | Jun 2023 – Dec 2024</p>
-        <ul class="list-disc pl-6 mt-2 space-y-2">
-          <li>Led a team of four recruiters, providing guidance and tracking performance to meet hiring targets.</li>
-          <li>Served as the main point of contact for the Ford Motors hiring project, aligning recruitment with client needs.</li>
-          <li>Managed tech and non-tech hiring, delivering high-quality candidates matching business requirements.</li>
-          <li>Boosted candidate engagement by 60% through regular follow-ups, goal-setting, and best practices.</li>
-          <li>Implemented AI-based screening tools, reducing initial screening time by 50%.</li>
-          <li>Built strong pipelines for bulk and niche roles using Naukri, LinkedIn, and referrals.</li>
-          <li>Coordinated virtual interview processes, ensuring smooth scheduling and feedback flows.</li>
-          <li>Trained junior recruiters on sourcing, candidate evaluation, and offer handling to reduce time-to-fill.</li>
-          <li>Managed vendor partnerships and high-volume hiring, negotiating terms as needed.</li>
-          <li>Contributed to diversity hiring goals and streamlined onboarding processes.</li>
+      <div class="border-l-4 border-blue-700 pl-4">
+        <h3 class="text-2xl font-semibold">RLE India Pvt. Ltd.</h3>
+        <p class="text-sm text-gray-500">Senior Executive – Talent Acquisition | Jun 2023 – Dec 2024</p>
+        <ul class="list-disc pl-6 mt-2 text-gray-700">
+          <li>Managed Ford Motors hiring as primary stakeholder contact.</li>
+          <li>Led 4 recruiters and implemented AI screening to boost efficiency.</li>
+          <li>Increased candidate engagement by 60% through strategy tweaks.</li>
         </ul>
       </div>
-      <div class="border-l-4 border-blue-600 pl-4">
-        <h3 class="text-2xl font-bold">Allegis Group</h3>
-        <p class="text-sm text-gray-600 dark:text-gray-400">Senior Recruiter | Jul 2019 – Jun 2023</p>
-        <ul class="list-disc pl-6 mt-2 space-y-2">
-          <li>Managed end-to-end recruitment within the MSP model, aligning with client expectations.</li>
-          <li>Engaged with account and hiring managers to provide tailored talent solutions.</li>
-          <li>Built strong candidate pipelines using Naukri, LinkedIn, referrals, and internal databases.</li>
-          <li>Conducted phone and virtual interviews to assess skills, interests, and career goals.</li>
-          <li>Qualified candidates via HackerRank, technical evaluations, and panel interviews.</li>
-          <li>Maintained regular stakeholder communication, providing updates and addressing concerns.</li>
-          <li>Managed documentation and onboarding, ensuring a seamless transition for new hires.</li>
-          <li>Focused on positive candidate experiences, enhancing engagement from contact to onboarding.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technical Roles Hired For -->
-  <section id="roles" class="bg-white dark:bg-gray-800 p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Technical Roles Hired For</h2>
-    <div class="grid md:grid-cols-2 gap-6">
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Backend & Full Stack</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Java, Spring Boot, Python, Node.js, Mainframe (COBOL, JCL, DB2)</li>
-          <li>Java Full Stack</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Frontend</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Angular, React.js, Vue.js</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Cloud & DevOps</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>AWS, Azure, GCP, Kubernetes, Docker, Terraform, Jenkins</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Data & Analytics</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Data Engineers, Data Scientists, Big Data (Hadoop, Spark), ETL Developers, Power BI, Tableau</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">QA & Automation</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Selenium, Cypress, Appium, Postman, JMeter</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">ERP, CRM & Others</h3>
-        <ul class="list-disc pl-6 space-y-2">
-          <li>Salesforce Developer/Admin, SAP (ABAP, FICO, CRM, SD, MM), ServiceNow</li>
-          <li>UI/UX Designers, Business Analysts, Solution Architects</li>
-          <li>Technical Architects, IT Program Managers, IT Leads, Scrum Masters, Product Owners</li>
+      <div class="border-l-4 border-blue-700 pl-4">
+        <h3 class="text-2xl font-semibold">Allegis Group</h3>
+        <p class="text-sm text-gray-500">Senior Recruiter | Jul 2019 – Jun 2023</p>
+        <ul class="list-disc pl-6 mt-2 text-gray-700">
+          <li>Worked in MSP model managing tech and non-tech hiring.</li>
+          <li>Handled end-to-end recruitment, technical screening, and onboarding.</li>
+          <li>Used HackerRank, virtual interviews, and internal evaluations.</li>
         </ul>
       </div>
     </div>
   </section>
 
   <!-- Key Problems Solved -->
-  <section id="problems" class="bg-white dark:bg-gray-800 p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Key Problems Solved</h2>
-    <ul class="list-disc pl-6 space-y-2">
-      <li><strong>Low Quality of Hires:</strong> Introduced AI-driven screening tools and improved evaluation methods to enhance hiring accuracy.</li>
-      <li><strong>Lack of Niche Talent:</strong> Closed challenging roles in Java Full Stack, Data Engineering, and DevOps through focused sourcing and talent mapping.</li>
-      <li><strong>Poor Candidate Experience:</strong> Owned end-to-end candidate communication, ensuring timely updates and a smooth, engaging experience.</li>
-      <li><strong>Ineffective Stakeholder Collaboration:</strong> Acted as the single point of contact for key accounts like Ford Motors, aligning hiring with business needs.</li>
-      <li><strong>Unstructured Hiring Process:</strong> Standardized interview coordination, set team goals, and tracked progress to improve efficiency.</li>
-      <li><strong>Weak Employer Branding:</strong> Strengthened employer image through improved candidate experiences and branding efforts across channels.</li>
+  <section class="bg-gradient-to-r from-indigo-50 via-blue-100 to-white py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-4">Key Problems Solved</h2>
+    <ul class="list-disc pl-6 text-gray-700 text-lg">
+      <li><strong>Low Quality of Hires:</strong> Integrated AI screening tools for better accuracy.</li>
+      <li><strong>Niche Talent Gap:</strong> Closed roles in Java Full Stack, DevOps, and Data Engineering.</li>
+      <li><strong>Unstructured Hiring:</strong> Introduced structured interview coordination and dashboards.</li>
+      <li><strong>Brand Image:</strong> Improved candidate experience across all hiring stages.</li>
     </ul>
   </section>
 
   <!-- Certifications -->
-  <section id="certifications" class="p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Certifications</h2>
-    <ul class="list-disc pl-6 space-y-2">
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">SAP Business One and SAP FICO – CAST, Mangalore (Score: 74%)</li>
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Generative AI, Recruiting, and Talent Acquisition – PMI</li>
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Managing Project Stakeholders – PMI</li>
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Employer Branding – Hirist.com</li>
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">Recruitment & Selection Specialist – Udemy</li>
-      <li class="hover:text-blue-600 dark:hover:text-blue-400 transition">ChatGPT for HR – Great Learning Academy</li>
+  <section class="bg-white py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-4">Certifications</h2>
+    <ul class="list-disc pl-6 text-gray-700 text-lg">
+      <li>Generative AI in Recruiting – PMI</li>
+      <li>Managing Project Stakeholders – PMI</li>
+      <li>ChatGPT for HR – Great Learning Academy</li>
+      <li>Recruitment & Selection Specialist – Udemy</li>
+      <li>SAP Business One and FICO – CAST Mangalore</li>
     </ul>
   </section>
 
   <!-- Education -->
-  <section id="education" class="bg-white dark:bg-gray-800 p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Education</h2>
-    <ul class="list-disc pl-6 space-y-2">
-      <li><strong>MBA – Human Resource Management</strong>, Mangalore University, 2019</li>
-      <li><strong>Bachelor of Computer Science</strong>, Gulbarga University, 2017</li>
+  <section class="bg-gradient-to-br from-blue-50 to-cyan-100 py-12 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-4">Education</h2>
+    <ul class="list-disc pl-6 text-gray-800 text-lg">
+      <li><strong>MBA in Human Resources Management</strong> – Mangalore University, 2019</li>
+      <li><strong>Bachelor of Computer Science</strong> – Gulbarga University, 2017</li>
     </ul>
   </section>
 
-  <!-- Company Logos -->
-  <section id="companies" class="p-10 max-w-6xl mx-auto section">
-    <h2 class="text-3xl font-semibold mb-4">Companies Worked With</h2>
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="images/photon-logo.png" alt="Photon" class="object-contain h-24 w-full rounded shadow hover:scale-105 transition">
-      <img src="images/rle-logo.png" alt="RLE" class="object-contain h-24 w-full rounded shadow hover:scale-105 transition">
-      <img src="images/allegis-logo.png" alt="Allegis Group" class="object-contain h-24 w-full rounded shadow hover:scale-105 transition">
-    </div>
-    <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">(Add logos in the 'images' folder)</p>
-  </section>
-
-  <!-- Back to Top Button -->
-  <button id="back-to-top" class="back-to-top bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition">
-    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-    </svg>
-  </button>
-
   <!-- Footer -->
-  <footer class="bg-blue-900 text-white p-6 text-center">
+  <footer class="bg-indigo-900 text-white py-4 text-center">
     <p>&copy; 2025 Bheemashankar Nashi. All rights reserved.</p>
   </footer>
-
-  <script>
-    // Dark Mode Toggle
-    const themeToggle = document.getElementById('theme-toggle');
-    themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark');
-      localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
-    });
-
-    // Load theme from localStorage
-    if (localStorage.getItem('theme') === 'dark') {
-      document.body.classList.add('dark');
-    }
-
-    // Back to Top Button
-    const backToTop = document.getElementById('back-to-top');
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 300) {
-        backToTop.classList.add('visible');
-      } else {
-        backToTop.classList.remove('visible');
-      }
-    });
-
-    backToTop.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  </script>
 </body>
 </html>
